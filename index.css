@@ -1,0 +1,295 @@
+@font-face{
+    font-family: neographic;
+    src: url(NeographikMTStd.otf);
+}
+#body{
+    background-color: rgb(56, 56, 56);
+}
+/* NAVBAR */
+#navbar{
+    background-color: black;
+    opacity: 60%;
+    position: fixed;
+    width: 100%;
+    height: 6.3%;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+}
+#logo{
+    font-family: neographic;
+    position: fixed;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    left: 42.2%;
+    top: -0%;
+    font-size: 4vb;
+    text-decoration: underline rgb(255, 255, 255);
+}
+#login{
+    position: absolute;
+    left: 88%;
+    top: 0%;
+    height: 6.3%;
+    width: 5%;
+    font-size: 1.5vb;
+    border-radius: 2px;
+    background-color: rgb(56, 56, 56);
+    z-index: 1;
+    border: 0.3vh rgb(255, 187, 0) solid;
+    font-family: neographic;
+    color: white;
+}
+#signup{
+    position: absolute;
+    left: 94%;
+    top: 0%;
+    height: 6.3%;
+    width: 5%;
+    font-size: 1.5vb;
+    border-radius: 2px;
+    background-color: rgb(56, 56, 56);
+    z-index: 1;
+    border: 0.3vh rgb(255, 187, 0) solid;
+    font-family: neographic;
+    color: white;
+}
+#h1{
+    position: absolute;
+    background-color: white;
+    top: 1.7%;
+    left: 1.3%;
+    height: 0.5%;
+    width: 1.7%;
+    z-index: 1;
+}
+#h2{
+    position: absolute;
+    background-color: white;
+    top: 2.8%;
+    left: 1.3%;
+    height: 0.5%;
+    width: 1.7%;
+    z-index: 1; 
+}
+#h3{
+    position: absolute;
+    background-color: white;
+    top: 3.9%;
+    left: 1.3%;
+    height: 0.5%;
+    width: 1.7%;
+    z-index: 1;  
+}
+
+/* 1ST IMAGE */
+
+#jesko{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+}
+#imageshadding1{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    left: 0%;
+    top: 15%;
+    width: 30%;
+    height: 90%;
+    z-index: 0;
+    opacity: 60%;
+}
+#discription1{
+    color: rgb(255, 88, 37);
+    text-decoration: 0.3vh underline rgb(255, 88, 37);
+    position: absolute;
+    
+    left: 2.5%;
+    top: 70%;
+    z-index: 0;
+    font-size: 6vh;
+    font-family: neographic;
+}
+
+/* GEMERA */
+
+#gemera{
+    width: 100%;
+    position: absolute;
+    top: 112.5%;
+    left: 0%;
+    z-index: 0;
+}
+#imageshadding2{
+    position: absolute;
+    background-color: rgb(255, 187, 0);
+    right: 0%;
+    top: 125%;
+    width: 50%;
+    height: 25%;
+    z-index: 0;
+    opacity: 60%;
+}
+#discription2{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    text-decoration: 0.3vh underline rgb(0, 0, 0);
+    text-align: right;
+    right: 2.5%;
+    top: 130%;
+    z-index: 0;
+    font-size: 6vh;
+    font-family: neographic;
+}
+#discription2dot1{
+    color: rgb(247, 247, 247);
+    position: absolute;
+    text-decoration: 0.3vh underline rgb(255, 255, 255);
+    right: 2.5%;
+    top: 195%;
+    z-index: 0;
+    font-size: 6vh;
+    font-family: neographic;
+}
+
+/* TEST DRIVE */
+
+#gemeratd{
+    width: 100%;
+    position: absolute;
+    top: 225%;
+    left: 0%;
+    z-index: 0;
+}
+#imageshadding3{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    text-decoration: 0.3vh underline rgb(0, 0, 0);
+    left: 0%;
+    top: 240%;
+    width: 30%;
+    height: 90%;
+    z-index: 0;
+    opacity: 60%;
+}
+#discription3{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-decoration: 0.3vh underline rgb(255, 255, 255);
+    left: 2.5%;
+    top: 290%;
+    z-index: 0;
+    font-size: 6vh;
+    font-family: neographic;
+}
+#booknow{
+    position: absolute;
+    left: 0%;
+    top: 309%;
+    height: 8%;
+    width: 31%;
+    background-color: rgb(80, 80, 80);
+    z-index: 0;
+    border: 1px rgb(255, 187, 0) solid;
+
+    font-family: neographic;
+    font-size: 2vb;
+    color: rgb(255, 255, 255);
+}
+
+/* BUILDING */
+#buildingimg{
+    width: 50%;
+    position: absolute;
+    top: 345%;
+    left: 2%;
+    z-index: 0;
+}
+#ihbttl{
+    color: rgb(255, 255, 255);
+    text-decoration: 0.3vh underline rgb(255, 255, 255);
+    position: absolute;
+    right: 8.5%;
+    top: 350%;
+    z-index: 0;
+    font-size: 6vh;
+    font-family: neographic;
+}
+#ihbpg{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 8.2%;
+    top: 360%;
+    z-index: 0;
+    font-size: 3vh;
+    font-family: neographic;
+    width: 30%;
+    text-align: center;
+}
+
+/* HISTORY */
+
+#historyvon{
+    width: 25%;
+    position: absolute;
+    top: 415%;
+    right: 5%;
+    z-index: 0;
+}
+#historytxt{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 6.2%;
+    top: 450%;
+    z-index: 0;
+    font-size: 3vh;
+    font-family: neographic;
+    width: 56%;
+    text-align: center;
+}
+
+/* EXPLORE */
+
+#exploreimg{
+    width: 100%;
+    position: absolute;
+    top: 500%;
+    left: 0%;
+    z-index: 0;
+}
+#imageshadding4{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    text-decoration: 0.3vh underline rgb(0, 0, 0);
+    left: 0%;
+    top: 600.5%;
+    width: 100%;
+    height: 10%;
+    z-index: 0;
+    opacity: 60%;
+}
+#explorebutton{
+    color: rgb(255, 255, 255);
+    text-decoration: 0.3vh underline rgb(255, 255, 255);
+    position: absolute;
+    right: 45%;
+    top: 601%;
+    z-index: 0;
+    font-size: 6vh;
+    font-family: neographic;
+}
+
+/* FOOTER */
+
+#hr{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    text-decoration: 0.3vh underline rgb(0, 0, 0);
+    left: 0%;
+    top: 630%;
+    width: 99.9%;
+    z-index: 0;
+    opacity: 60%;  
+}

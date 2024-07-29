@@ -1,2 +1,2 @@
-# KOENIGSEGG.MIRROR
-So, its been a while I started practicing HTML and CSS. after learning positions in CSS, i thought about giving it a try and here it is. A Koenigsegg mirror website which feels like Aston Martin. At First, I created a website a mix of .px and % at the same time. I looked horrible when zoomed in. But thgis time, with %, vb and vh only. Now, it doesnt looks horrible when zoomed in but the website is not responsive tbh. ;>
+# Koenigsegg-MIRROR-
+After learning positions in CSS, i thought about creating a mirror website
